@@ -19,22 +19,20 @@
     <div class="collapse navbar-collapse" id="basicExampleNav">
   
       <!-- Links -->
-      <ul class="navbar-nav mr-auto" style="margin-top: 5%;margin-left: 10%;">
+      <ul class="navbar-nav mr-auto " style="margin-top: 5%;margin-left: 10%;font-family: sofia, sans serif;">
         
-        <a href=""><button type="button" class="btn btn-outline-info">Home</button></a>
-        <a href=""><button type="button" class="btn btn-outline-info">About </button></a>
-        <a href=""><button type="button" class="btn btn-outline-info">Services</button></a>
-        <a href=""><button type="button" class="btn btn-outline-info">Amenities</button></a>
-        <a href=""><button type="button" class="btn btn-outline-info">Contact </button></a>
+        <a href=""><button type="button" class="btn btn-outline-info" style="border-radius: 30px;font-family: Georgia, serif;">Home</button></a>
+        <a href=""><button type="button" class="btn btn-outline-info" style="border-radius: 30px;font-family: Georgia, serif;">About </button></a>
+        <a href=""><button type="button" class="btn btn-outline-info" style="border-radius: 30px;font-family: Georgia, serif;">Services</button></a>
+        <a href=""><button type="button" class="btn btn-outline-info" style="border-radius: 30px;font-family: Georgia, serif;">Amenities</button></a>
+        <a href=""><button type="button" class="btn btn-outline-info" style="border-radius: 30px;font-family: Georgia, serif;">Contact </button></a>
 
        
        
        
         </ul>
         <ul class="navbar-nav flex-row d-none d-md-flex align-right" >
-            <div class="row"><li><p style="margin-left: 2%;font-family: Georgia, serif;margin-top: 1%;text-align: right;"> Need assistance? Call us now.</p></li></div>
-            
-          
+        
             
         </ul>
         
@@ -77,6 +75,11 @@
               </li>
 
               {% endif %}
+
+              <div class="call">
+                <a class="navbar-brand font-weight-bold" href="{% url 'index' %}" style="color: black;margin-left: -130%;font-family: pacifico, sans serif;" ><p> Need assistance? <br>Call us now.</p> </a>
+                
+            </div>
         </div>
 
     </div>
