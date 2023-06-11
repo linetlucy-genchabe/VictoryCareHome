@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+h1 {
+    color: rgb(30, 135, 210);
+    font-family: 'pacifico', cursive;
+}
+h3{
+    
+    font-family: Georgia,serif;
+}
+
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+.col-md-4:hover{
+   box-shadow: 2px 2px 2px 2px rgb(98, 208, 245);
+    border-radius: 50%;
+    padding-top: 7%;
+     padding-bottom: 1%;
+     padding-left: 2%;
+     align-items: center;
+    
+
+}
+.col-md-4{
+   
+     padding-top: 1%;
+     padding-bottom: 1%;
+     padding-left: 1%;
+     
+     
+ 
+ }
+.navbar-nav a .btn:hover{
+    
+    text-decoration: line-through;
+    color: white;
+    background-color: deepskyblue;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+#about{
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(205, 237, 254));
+    font-size: 25px;
+    padding: 15% 10%;
+}
+
+#services{
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(181, 232, 242),rgb(233, 246, 250));
+}
+
+header {
+    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(127, 179, 243));
+    font-size: 25px;
+    padding: 15% 10%;
+    margin-top: 3%;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
